@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Afya DevEx Marketplace plugin. Skills, plugins, workflows and other productivity tools for software developers.",
-    "version": "0.1.0"
+    "version": "0.1.1"
   },
   "plugins": [
     {
@@ -16,7 +16,7 @@
         "url": "https://github.com/iclinic/afyapowers"
       },
       "description": "A deterministic, phase-gated development workflow plugin for Claude Code, forked from superpowers. Enforces structured feature development with persistent state, session continuity, and full auditability. Made by Afya's Developer Experience (DevEx) team to optimize software development processes and enhance productivity.",
-      "version": "0.1.1",
+      "version": "0.2.0",
       "strict": true
     }
   ]
