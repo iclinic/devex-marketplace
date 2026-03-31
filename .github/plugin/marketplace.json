@@ -1,0 +1,25 @@
+{
+  "name": "devex-marketplace",
+  "metadata": {
+    "description": "Afya DevEx Marketplace plugin. Skills, plugins, workflows and other productivity tools for software developers.",
+    "version": "0.1.1",
+    "pluginRoot": "./plugins"
+  },
+  "owner": {
+    "name": "Rafael Papastamatiou",
+    "email": "rafael.rodrigues@afya.com.br"
+  },
+  "plugins": [
+    {
+      "name": "afyapowers",
+      "description": "A deterministic, phase-gated development workflow plugin, forked from superpowers. Enforces structured feature development with persistent state, session continuity, and full auditability. Made by Afya's Developer Experience (DevEx) team to optimize software development processes and enhance productivity.",
+      "version": "0.3.0",
+      "repository": "https://github.com/iclinic/afyapowers",
+      "source": {
+        "source": "github",
+        "repo": "iclinic/afyapowers",
+        "path": "dist/github-copilot"
+      }
+    }
+  ]
+}
