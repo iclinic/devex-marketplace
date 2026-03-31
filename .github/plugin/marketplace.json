@@ -13,7 +13,7 @@
     {
       "name": "afyapowers",
       "description": "A deterministic, phase-gated development workflow plugin, forked from superpowers. Enforces structured feature development with persistent state, session continuity, and full auditability. Made by Afya's Developer Experience (DevEx) team to optimize software development processes and enhance productivity.",
-      "version": "0.3.0",
+      "version": "0.5.0",
       "repository": "https://github.com/iclinic/afyapowers",
       "source": {
         "source": "github",
