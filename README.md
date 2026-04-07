@@ -35,12 +35,12 @@ copilot plugin marketplace add iclinic/devex-marketplace
 
 Um plugin de workflow de desenvolvimento determinístico e com fases controladas, derivado do superpowers. Impõe desenvolvimento estruturado de funcionalidades com estado persistente, continuidade de sessão e rastreabilidade completa.
 
+**Repositório:** https://github.com/iclinic/afyapowers
+
 **O que você obtém:**
 - Workflow de desenvolvimento estruturado e com fases controladas
 - Estado persistente e continuidade de sessão
 - Rastreabilidade completa para desenvolvimento de funcionalidades
-
-**Repositório:** https://github.com/iclinic/devex-marketplace
 
 ---
 
