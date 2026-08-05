@@ -44,6 +44,50 @@ Um plugin de workflow de desenvolvimento determinístico e com fases controladas
 
 ---
 
+## Canais de Release
+
+O afyapowers é publicado em dois canais, como entradas de plugin separadas no mesmo
+marketplace, apontando para refs diferentes do repositório do plugin.
+
+| Canal | Plugin | Ref do source | Plataformas | Para quem |
+| :---- | :----- | :------------ | :---------- | :-------- |
+| Stable | `afyapowers` | tag `v1.5.0` (fixa) | Claude Code, Cursor, GitHub Copilot | Uso geral. Só muda quando uma nova tag é publicada aqui. |
+| Latest | `afyapowers-latest` | branch `master` | **Apenas Claude Code** | Early access. Acompanha o desenvolvimento contínuo. |
+
+O canal Latest é exclusivo do Claude Code — ele existe apenas em
+`.claude-plugin/marketplace.json`. Cursor e GitHub Copilot recebem somente o canal
+Stable.
+
+### Instalando o canal Latest (Claude Code)
+
+```bash
+/plugin marketplace add iclinic/devex-marketplace
+/plugin install afyapowers-latest@devex-marketplace
+```
+
+> **Instale apenas um dos dois.** Os dois canais entregam as mesmas skills, então
+> ter `afyapowers` e `afyapowers-latest` habilitados ao mesmo tempo duplica
+> comandos e agentes. Para trocar de canal, desinstale o outro primeiro.
+
+### Publicando no canal Latest
+
+O canal Latest só entrega atualização quando a **versão resolvida muda**. O
+afyapowers declara `version` no seu próprio `plugin.json`, e esse valor tem
+precedência sobre o marketplace — por isso a entrada `afyapowers-latest` aqui
+**não** define `version`.
+
+Consequência prática: novos commits em `master` com o mesmo `version` no
+`plugin.json` **não** chegam aos usuários. Cada release do canal Latest precisa
+bumpar o `version` do `plugin.json` no repositório do afyapowers (por exemplo
+`1.6.0-rc.1`, `1.6.0-rc.2`).
+
+### Promovendo Latest para Stable
+
+1. Publique uma tag no repositório do afyapowers (ex.: `v1.6.0`).
+2. Atualize `ref` e `version` da entrada `afyapowers` nos três arquivos de marketplace.
+
+---
+
 ## Estrutura do Projeto
 
 ```
@@ -67,6 +111,10 @@ Para adicionar um novo plugin ao marketplace, adicione a definição do plugin n
 - `.github/plugin/marketplace.json`
 
 Cada plataforma possui um formato de source ligeiramente diferente. Consulte as entradas existentes como referência.
+
+Plugins específicos de uma plataforma vão apenas no arquivo correspondente — é o caso
+do canal Latest (`afyapowers-latest`), que existe só em `.claude-plugin/marketplace.json`.
+Veja [Canais de Release](#canais-de-release).
 
 ## Licença
 
