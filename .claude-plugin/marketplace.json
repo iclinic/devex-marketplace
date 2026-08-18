@@ -37,7 +37,7 @@
       "name": "afyapowers-design",
       "source": {
         "source": "github",
-        "url": "iclinic/afyapowers-design",
+        "repo": "iclinic/afyapowers-design",
         "ref": "v1.0.0"
       },
       "description": "Handoff review de Figma para Product Designers — valida o arquivo contra as boas práticas de handoff da Afya e gera relatório com ajustes bloqueantes e sugestões",
