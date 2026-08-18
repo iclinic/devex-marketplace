@@ -15,10 +15,10 @@
         "source": "git-subdir",
         "url": "https://github.com/iclinic/afyapowers",
         "path": "dist/claude",
-        "ref": "v1.6.2"
+        "ref": "v1.7.1"
       },
       "description": "A deterministic, phase-gated development workflow plugin for Claude Code, forked from superpowers. Enforces structured feature development with persistent state, session continuity, and full auditability. Made by Afya's Developer Experience (DevEx) team to optimize software development processes and enhance productivity.",
-      "version": "1.6.2",
+      "version": "1.7.1",
       "strict": true
     },
     {
