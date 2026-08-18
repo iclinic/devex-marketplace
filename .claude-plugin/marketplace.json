@@ -32,6 +32,17 @@
       },
       "description": "Latest release channel of afyapowers, tracking the master branch. Pre-release features that have not been promoted to the stable channel yet. Install this instead of afyapowers (not alongside it) to get early access.",
       "strict": true
+    },
+    {
+      "name": "afyapowers-design",
+      "source": {
+        "source": "github",
+        "url": "iclinic/afyapowers-design",
+        "ref": "v1.0.0"
+      },
+      "description": "Handoff review de Figma para Product Designers — valida o arquivo contra as boas práticas de handoff da Afya e gera relatório com ajustes bloqueantes e sugestões",
+      "version": "1.0.0",
+      "strict": true
     }
   ]
 }
