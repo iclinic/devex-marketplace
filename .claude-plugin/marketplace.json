@@ -10,10 +10,10 @@
   },
   "plugins": [
     {
-      "name": "afyapowers",
+      "name": "afyapowers-dev",
       "source": {
         "source": "git-subdir",
-        "url": "https://github.com/iclinic/afyapowers",
+        "url": "https://github.com/iclinic/afyapowers-plugin-dev",
         "path": "dist/claude",
         "ref": "v1.7.4"
       },
@@ -22,16 +22,15 @@
       "strict": true
     },
     {
-      "name": "afyapowers-latest",
-      "displayName": "Afyapowers (Latest)",
+      "name": "afyapowers-core",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/iclinic/afyapowers",
-        "path": "dist/claude",
-        "ref": "master"
+        "source": "github",
+        "url": "iclinic/afyapowers-plugin-core",
+        "ref": "v1.0.0"
       },
-      "description": "Latest release channel of afyapowers, tracking the master branch. Pre-release features that have not been promoted to the stable channel yet. Install this instead of afyapowers (not alongside it) to get early access.",
+      "description": "Plugin core da família afyapowers, responsável por fornecer contexto de Jira, status line, histórico de conversas em HTML, telemetria OTLP e diretiva de idioma pt-BR.",
+      "version": "1.0.0",
       "strict": true
-    }
+    },
   ]
 }
