@@ -25,7 +25,7 @@
       "name": "afyapowers-core",
       "source": {
         "source": "github",
-        "url": "iclinic/afyapowers-plugin-core",
+        "repo": "iclinic/afyapowers-plugin-core",
         "ref": "v1.0.0"
       },
       "description": "Plugin core da família afyapowers, responsável por fornecer contexto de Jira, status line, histórico de conversas em HTML, telemetria OTLP e diretiva de idioma pt-BR.",
