@@ -51,7 +51,7 @@ marketplace, apontando para refs diferentes do repositório do plugin.
 
 | Canal | Plugin | Ref do source | Plataformas | Para quem |
 | :---- | :----- | :------------ | :---------- | :-------- |
-| Stable | `afyapowers` | tag `v1.7.3` (fixa) | Claude Code, Cursor, GitHub Copilot | Uso geral. Só muda quando uma nova tag é publicada aqui. |
+| Stable | `afyapowers` | tag `v1.7.4` (fixa) | Claude Code, Cursor, GitHub Copilot | Uso geral. Só muda quando uma nova tag é publicada aqui. |
 | Latest | `afyapowers-latest` | branch `master` | **Apenas Claude Code** | Early access. Acompanha o desenvolvimento contínuo. |
 
 O canal Latest é exclusivo do Claude Code — ele existe apenas em
