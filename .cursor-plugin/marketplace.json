@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Afya DevEx Marketplace plugin. Skills, plugins, workflows and other productivity tools for software developers.",
-    "version": "0.1.1"
+    "version": "0.1.6"
   },
   "plugins": [
     {
