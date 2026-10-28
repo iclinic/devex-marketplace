@@ -6,40 +6,7 @@
   },
   "metadata": {
     "description": "Afya DevEx Marketplace plugin. Skills, plugins, workflows and other productivity tools for software developers.",
-    "version": "0.1.9"
+    "version": "0.2.0"
   },
-  "plugins": [
-    {
-      "name": "afyapowers-dev",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/iclinic/afyapowers-plugin-dev",
-        "path": "dist/claude",
-        "ref": "v1.8.1"
-      },
-      "description": "A deterministic, phase-gated development workflow plugin for Claude Code, forked from superpowers. Enforces structured feature development with persistent state, session continuity, and full auditability. Made by Afya's Developer Experience (DevEx) team to optimize software development processes and enhance productivity.",
-      "version": "1.8.1",
-      "strict": true
-    },
-    {
-      "name": "afyapowers-core",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/iclinic/afyapowers-plugin-core.git",
-        "ref": "v1.4.0"
-      },
-      "description": "Plugin core da família afyapowers, responsável por fornecer contexto de Jira, status line, histórico de conversas em HTML, telemetria OTLP e diretiva de idioma pt-BR.",
-      "version": "1.4.0",
-      "strict": true
-    },
-    {
-      "name": "afyapowers-apptracking",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/iclinic/afyapowers-plugin-apptracking.git",
-        "ref": "master"
-      },
-      "description": "Skills for app tracking"
-    }
-  ]
+  "plugins": []
 }
